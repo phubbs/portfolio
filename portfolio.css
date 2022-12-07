@@ -1,0 +1,151 @@
+#title {
+    background-color: #6B6054;
+}
+
+h1{
+    font: 'Arial';
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #FFFF;
+
+}
+.container-fluid{
+    padding: 5% 7%;
+}
+/*Navigation Bar */
+.navbar-brand{
+    font-family:'Arial';
+    font-size: 2.5rem;
+    color: white;
+    text-align: left;
+ }
+ .navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 2rem;
+    padding-right: 0rem;
+    text-align: left;
+ }
+ .navbar-item{
+    padding-left:18px;
+    padding-right:18px;
+    text-align: left;
+ }
+ .navbar-link{
+    font-family:'Arial';
+    font-weight: light;
+    font-size: 1.5rem;
+    text-align: left;
+ }
+ /* Download Buttons */
+ .download-button{
+    margin: 5% 5% 5% 5%;
+ }
+ /* Title Image */
+
+ .navbar-link{
+    color: #D5ECD4;
+    text-align: left;
+ }
+ .navbar-link:hover{
+    color: #A1B0AB;
+ }
+.my-pic{
+    width: 400px;
+    height: 400px;
+    padding-left: 100px;
+    margin-bottom: 20px;
+ }
+
+.first-section{
+    font-family: 'Arial';
+    width: 600px;
+    height: 400px;
+    padding-right: 20px;
+    padding-top: 100px;
+    text-align: right;
+    background-color: #A1B0AB;
+}
+
+ /*Features*/
+ #rundown{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left:30px;
+    padding-right:30px;
+    text-align: center;
+    margin-bottom : 20px;
+    position:static;
+    background-color: #C3DAC3;
+ }
+ .phide{
+    color: #6B6054;
+ }
+ .phide:hover{
+    color: #929487;
+ }
+ .ma{
+    color: #6B6054;
+ }
+ .ma:hover{
+    color:#929487;
+ }
+h3{
+    font-family:'Arial';
+    font-weight: bold;
+}
+p{
+    color:black;
+    font-family: 'Arial';
+}
+.fa-3x{
+    color:#929487;
+    margin-bottom: 2rem;
+}
+.fa-3x:hover{
+    color:#A1B0AB;
+}
+
+#about-me{
+    padding: 100px;
+}
+.pricing-header{
+    color: #929487;
+}
+.pricing-column{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+@media(min-width: 0px) and (max-width: 1000px)
+ {
+    #title{
+        text-align:center;
+    }
+    .phone-pic{
+position: static;
+transform:rotate(0deg);
+    }
+
+}
+#cta{
+    background-color: #6B6054;
+    color: black;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 2;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px;
+}
